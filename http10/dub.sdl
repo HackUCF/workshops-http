@@ -1,0 +1,6 @@
+name "http10"
+description "http challenges for 10 points"
+copyright "Copyright © 2016, Mark Ignacio"
+authors "Mark Ignacio"
+dependency "vibe-d" version="~>0.7.23"
+versions "VibeDefaultMain"
