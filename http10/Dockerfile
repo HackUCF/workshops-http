@@ -11,6 +11,6 @@ RUN pacman -S dub --noconfirm
 RUN pacman -S libevent --noconfirm
 
 WORKDIR /opt/challenges
-COPY http10 .
+COPY . .
 RUN dub build
 CMD dub

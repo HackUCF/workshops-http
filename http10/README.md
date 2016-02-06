@@ -12,6 +12,6 @@ The following environment variables should be defined:
 * CHALLENGE_VERSION_FLAG
 
 ```
-# docker build -t workshop-http .
+# docker build -t http10 .
 # docker run -it -p 0.0.0.0:80:80 -e CHALLENGE_USER_AGENT=ua -e CHALLENGE_USER_AGENT_FLAG=ua_flag -e CHALLENGE_METHOD_FLAG=method_flag -e CHALLENGE_VERSION_FLAG=version_flag --name http-challenges workshop-http
 ```
